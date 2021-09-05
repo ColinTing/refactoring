@@ -5,7 +5,7 @@ import com.colinting.refactoring.videostore.Movie;
 import com.colinting.refactoring.videostore.Rental;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 public class CustomerTest {
 
@@ -30,7 +30,7 @@ public class CustomerTest {
         customer.addRental(thirdRental);
 
         String expectedStatement =
-                "com.colinting.refactoring.videostore.Rental Record for Jane Doe\n" +
+                "Rental Record for Jane Doe\n" +
                         "\tStar Wars: Episode VIII - The Last Jedi\t30.0\n" +
                         "\tStar Wars: Episode IV - A New Hope\t2.0\n" +
                         "\tThe Star Wars Holiday Special\t1.5\n" +
