@@ -5,7 +5,7 @@ import com.colinting.refactoring.videostore.Movie;
 import com.colinting.refactoring.videostore.Rental;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 public class CustomerTest {
 
