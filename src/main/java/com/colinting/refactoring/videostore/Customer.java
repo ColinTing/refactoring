@@ -83,4 +83,13 @@ public class Customer {
         }
         return result;
     }
+
+    void printOwing(double amount) {
+        printDetails(amount);
+    }
+
+    void printDetails(double amount) {
+        System.out.println("name:" + _name);
+        System.out.println("amount:" + amount);
+    }
 }
